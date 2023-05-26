@@ -1,0 +1,488 @@
+					DAY = 8
+
+Question 1 : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        guvi
+    </div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </div>
+</body>
+</html>
+
+###########################################################################################
+
+
+Question : 2
+
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        guvi
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+################################################################################################
+
+
+Question : 3
+
+
+		<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us Form</title>
+    <script>
+        function validateForm() {
+            // Get form input values
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            
+            // Validate input fields
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill in all required fields.");
+                return false;
+            }
+            // Add additional validation rules if needed
+            
+            // Form submission successful
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+##########################################################################################
+
+Question : 4
+
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Programming Languages and Databases</title>
+</head>
+<body>
+    <h1>Programming Languages</h1>
+    
+    <h2>JavaScript</h2>
+    <ul>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Vue.js</li>
+    </ul>
+    
+    <h2>Python</h2>
+    <ul>
+        <li>Django Framework</li>
+        <li>Flask Framework</li>
+    </ul>
+    
+    <h2>Java</h2>
+    <ul>
+        <li>Spring</li>
+        <li>Maven</li>
+        <li>Hibernate</li>
+    </ul>
+    
+    <h1>Databases</h1>
+    
+    <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cassandra</li>
+    </ul>
+</body>
+</html>
+
+#####################################################################################
+
+
+Question : 5
+
+
+					<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Open Google in New Tab</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Open Google</a>
+</body>
+</html>
+
+###########################################################################3
+
+
+Question :  6
+
+				<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Type Form</title>
+</head>
+<body>
+    <h1>Employee Type</h1>
+    
+    <form>
+        <label>
+            <input type="radio" name="employeeType" value="salaried">
+            Salaried
+        </label>
+        
+        <label>
+            <input type="radio" name="employeeType" value="ownBusiness">
+            Own Business
+        </label>
+        
+        <br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+#####################################################################################3
+
+
+Qustion : 7
+
+					(HTML File)
+
+
+
+				<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <form>
+        <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-row">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+				(CSS File)
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+######################################################################################
+
+Question : 8          			(HTML FILE )
+
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table Design</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Table Design</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>John Doe</td>
+                <td>IT</td>
+                <td>$50,000</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Jane Smith</td>
+                <td>HR</td>
+                <td>$45,000</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Michael Johnson</td>
+                <td>Finance</td>
+                <td>$55,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+					( CSS FILE )
+
+	body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px 15px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+#################################################################################################
+
+
+Question : 9 
+
+				<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Default Values</title>
+</head>
+<body>
+    <h1>Default Values</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="johndoe@example.com"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="mypassword"><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message">Default message</textarea><br><br>
+        
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="checked" checked><br><br>
+        
+        <label for="radio1">Radio 1:</label>
+        <input type="radio" id="radio1" name="radio" value="option1" checked>
+        
+        <label for="radio2">Radio 2:</label>
+        <input type="radio" id="radio2" name="radio" value="option2"><br><br>
+        
+        <label for="select">Select:</label>
+        <select id="select" name="select">
+            <option value="option1" selected>Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+#######################################################################################
+
+Question : 10
+
+
+					<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Highlight Text</title>
+</head>
+<body>
+    <h1>Highlight Text</h1>
+    <p>
+        HTML &amp; CSS is <mark>awesome</mark>.
+    </p>
+</body>
+</html>
+
+############################################################################################
+
+
+Question : 11
+
+
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Elements</title>
+</head>
+<body>
+    <h1>Input Elements</h1>
+    
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number"><br><br>
+    
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+    
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+    
+    <label for="radio1">Radio 1:</label>
+    <input type="radio" id="radio1" name="radio" value="option1">
+    
+    <label for="radio2">Radio 2:</label>
+    <input type="radio" id="radio2" name="radio" value="option2"><br><br>
+    
+    <label for="select">Select:</label>
+    <select id="select" name="select">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select><br><br>
+    
+    <label for="textarea">Textarea:</label>
+    <textarea id="textarea" name="textarea"></textarea><br><br>
+    
+    <label for="file">File:</label>
+    <input type="file" id="file" name="file"><br><br>
+    
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+    
+    <input type="submit" value="Submit">
+</body>
+</html>
+
+
+
+			
